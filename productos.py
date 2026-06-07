@@ -1,6 +1,7 @@
 import json
 import os
 
+# Módulo principal para la gestión de productos mediante operaciones CRUD #
 ARCHIVO = "productos.json"
 
 
