@@ -66,10 +66,3 @@ def eliminar_producto(id):
         raise ValueError(f"Producto con id {id} no encontrado")
     guardar_productos(nuevos)
     return True
-
-
-# Obtener un producto por ID exitoso#
-def test_obtener_producto_por_id_exitoso(self):
-    crear_producto(5, "Audífonos", "Bluetooth inalámbrico", 320000, 8)
-    p = obtener_producto_por_id(5)
-    self.assertEqual(p["nombre"], "Audífonos")

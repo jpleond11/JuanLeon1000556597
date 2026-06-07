@@ -57,6 +57,12 @@ class TestCRUDProductos(unittest.TestCase):
         with self.assertRaises(ValueError):
             eliminar_producto(99)
 
+    # --- OBTENER UN PRODUCTO POR ID EXITOSO ---
+    def test_obtener_producto_por_id_exitoso(self):
+        crear_producto(5, "Audífonos", "Bluetooth inalámbrico", 320000, 8)
+        p = obtener_producto_por_id(5)
+        self.assertEqual(p["nombre"], "Audífonos")
+
 
 if __name__ == "__main__":
     unittest.main()
