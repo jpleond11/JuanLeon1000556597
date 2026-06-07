@@ -80,4 +80,9 @@ Puedes ver el reporte en: `https://sonarcloud.io/project/issues?issueStatuses=OP
 
 ---
 
+## ⚡ CI/CD
+Este proyecto utiliza GitHub Actions para ejecutar las pruebas unitarias automáticamente en cada commit.
+
+---
+
 Autor: Juan Pablo León Duque
